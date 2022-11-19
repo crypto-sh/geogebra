@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">geogebra</string>
+    <string name="material_title">Title</string>
+    <string name="material_details_title">Details</string>
+
+    <!--    id, title, author name (creator), date created, and date modified-->
+    <string name="material_details_header_id">id</string>
+    <string name="material_details_header_title">title</string>
+    <string name="material_details_header_author">author name (creator)</string>
+    <string name="material_details_header_create_date">date created</string>
+    <string name="material_details_header_modified_date">date modified</string>
+
+    <string name="general_error">General Error</string>
+</resources>
