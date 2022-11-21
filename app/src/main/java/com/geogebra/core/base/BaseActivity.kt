@@ -8,7 +8,7 @@ import androidx.databinding.ViewDataBinding
 import androidx.lifecycle.ViewModelProvider
 
 abstract class BaseActivity<E : ViewDataBinding, V : BaseViewModel> : AppCompatActivity() {
-
+    //test changing file
     lateinit var binding : E
 
     lateinit var viewModel : V
