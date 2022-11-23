@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/material_navigation"
+    app:startDestination="@id/materialListFragment">
+
+    <fragment
+        android:id="@+id/materialListFragment"
+        android:name="com.geogebra.ui.material.fragments.MaterialListFragment"
+        tools:layout="@layout/fragment_material_list"
+        android:label="@string/material_title" >
+        <action
+            android:id="@+id/toDetails"
+            app:destination="@id/materialDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/materialDetailsFragment"
+        android:name="com.geogebra.ui.material.fragments.MaterialDetailsFragment"
+        tools:layout="@layout/fragment_details_material"
+        android:label="@string/material_details_title" >
+        <argument
+            android:name="bundle_data_key"
+            app:argType="com.geogebra.core.dto.Material" />
+    </fragment>
+
+
+</navigation>

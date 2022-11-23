@@ -3,6 +3,20 @@
   <component name="AndroidTestResultsUserPreferences">
     <option name="androidTestResultsTableState">
       <map>
+        <entry key="-2027939522">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="Duration" value="90" />
+                  <entry key="HUAWEI&#10; MAR-LX1A" value="120" />
+                  <entry key="L2NDU20306000267" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
         <entry key="-1958574031">
           <value>
             <AndroidTestResultsTableState>
@@ -17,7 +31,34 @@
             </AndroidTestResultsTableState>
           </value>
         </entry>
+        <entry key="-1829680044">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="Duration" value="90" />
+                  <entry key="Pixel_C_API_33" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
         <entry key="-1739588391">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="Duration" value="90" />
+                  <entry key="HUAWEI&#10; MAR-LX1A" value="120" />
+                  <entry key="L2NDU20306000267" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="-1346370734">
           <value>
             <AndroidTestResultsTableState>
               <option name="preferredColumnWidths">
@@ -45,7 +86,63 @@
             </AndroidTestResultsTableState>
           </value>
         </entry>
+        <entry key="-942573073">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="Duration" value="90" />
+                  <entry key="HUAWEI&#10; MAR-LX1A" value="120" />
+                  <entry key="L2NDU20306000267" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="-303249605">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="Duration" value="90" />
+                  <entry key="HUAWEI&#10; MAR-LX1A" value="120" />
+                  <entry key="L2NDU20306000267" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
         <entry key="-188884097">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="Duration" value="90" />
+                  <entry key="HUAWEI&#10; MAR-LX1A" value="120" />
+                  <entry key="L2NDU20306000267" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="-158476489">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="Duration" value="90" />
+                  <entry key="HUAWEI&#10; MAR-LX1A" value="120" />
+                  <entry key="L2NDU20306000267" value="120" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="142853654">
           <value>
             <AndroidTestResultsTableState>
               <option name="preferredColumnWidths">
@@ -96,6 +193,23 @@
                   <entry key="HUAWEI&#10; MAR-LX1A" value="120" />
                   <entry key="L2NDU20306000267" value="120" />
                   <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="1618271999">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="1bdbedfb" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="HUAWEI&#10; MAR-LX1A" value="120" />
+                  <entry key="L2NDU20306000267" value="120" />
+                  <entry key="Pixel_C_API_33" value="120" />
+                  <entry key="Tests" value="360" />
+                  <entry key="Xiaomi&#10; 2109119DG" value="120" />
                 </map>
               </option>
             </AndroidTestResultsTableState>

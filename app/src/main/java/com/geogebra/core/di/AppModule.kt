@@ -4,8 +4,8 @@ import com.geogebra.core.api.ApiMaterial
 import com.geogebra.core.repository.MaterialsRepository
 import com.geogebra.core.repository.impl.MaterialsRepositoryImpl
 import com.geogebra.core.utils.DateTypeDeserializer
-import com.geogebra.ui.details.viewModel.MaterialDetailsViewModelFactory
-import com.geogebra.ui.materials.viewModel.MaterialsViewModelFactory
+
+import com.geogebra.ui.material.viewModels.MaterialViewModelFactory
 import com.google.gson.GsonBuilder
 
 import dagger.Module
@@ -58,12 +58,7 @@ object AppModule {
     }
 
     @Provides
-    fun provideMaterialsViewModelFactory(repository: MaterialsRepository) : MaterialsViewModelFactory {
-        return MaterialsViewModelFactory(repository)
-    }
-
-    @Provides
-    fun provideMaterialDetailsViewModelFactory(repository: MaterialsRepository) : MaterialDetailsViewModelFactory {
-        return MaterialDetailsViewModelFactory(repository)
+    fun provideMaterialViewModelFactory(repository: MaterialsRepository) : MaterialViewModelFactory {
+        return MaterialViewModelFactory(repository)
     }
 }

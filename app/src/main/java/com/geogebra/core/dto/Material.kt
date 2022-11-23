@@ -1,9 +1,11 @@
 package com.geogebra.core.dto
 
 import android.os.Parcelable
+import androidx.annotation.Keep
 import kotlinx.parcelize.Parcelize
 import java.util.Date
 
+@Keep
 @Parcelize
 data class Material(
     val id: String,
