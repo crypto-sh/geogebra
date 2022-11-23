@@ -1,4 +1,4 @@
-package com.geogebra.ui.materials.adapter
+package com.geogebra.ui.material.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -38,6 +38,9 @@ class RvAdapterMaterials(
 
         fun bind(data: Material) {
             binding.data = data
+            binding.materialItemImageView.setOnClickListener {
+                callBack.invoke(data)
+            }
             binding.materialItemConstraint.setOnClickListener {
                 callBack.invoke(data)
             }

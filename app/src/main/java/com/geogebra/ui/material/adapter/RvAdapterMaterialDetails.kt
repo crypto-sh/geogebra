@@ -1,4 +1,4 @@
-package com.geogebra.ui.details.adapter
+package com.geogebra.ui.material.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.geogebra.core.dto.KeyValue
 import com.geogebra.databinding.LayoutItemMaterialDetailsBinding
 
-class RvAdapterMaterialDetails : ListAdapter<KeyValue,RvAdapterMaterialDetails.Holder>(object : DiffUtil.ItemCallback<KeyValue>(){
+class RvAdapterMaterialDetails : ListAdapter<KeyValue, RvAdapterMaterialDetails.Holder>(object : DiffUtil.ItemCallback<KeyValue>(){
     override fun areItemsTheSame(oldItem: KeyValue, newItem: KeyValue): Boolean = oldItem.header == newItem.header
 
     override fun areContentsTheSame(oldItem: KeyValue, newItem: KeyValue): Boolean = oldItem.text == newItem.text
@@ -21,7 +21,13 @@ class RvAdapterMaterialDetails : ListAdapter<KeyValue,RvAdapterMaterialDetails.H
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
-        return Holder(LayoutItemMaterialDetailsBinding.inflate(LayoutInflater.from(parent.context), parent, false))
+        return Holder(
+            LayoutItemMaterialDetailsBinding.inflate(
+                LayoutInflater.from(parent.context),
+                parent,
+                false
+            )
+        )
     }
 
     override fun onBindViewHolder(holder: Holder, position: Int) {
