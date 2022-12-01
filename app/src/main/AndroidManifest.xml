@@ -32,15 +32,20 @@
                 android:value="" />
         </activity>
 
-<!--        <activity-->
-<!--            android:name=".ui.materials.MaterialsActivity"-->
-<!--            android:exported="true"-->
-<!--            android:label="@string/material_title" />-->
+        <activity
+            android:name=".ui.compose.ComposeActivity"
+            android:exported="true"
+            android:label="@string/material_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-<!--        <activity-->
-<!--            android:name=".ui.details.MaterialDetailsActivity"-->
-<!--            android:exported="true"-->
-<!--            android:label="@string/material_details_title" />-->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
     </application>
 
 </manifest>

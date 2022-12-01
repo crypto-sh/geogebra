@@ -13,6 +13,8 @@ abstract class MaterialViewModel : BaseViewModel() {
 
     abstract fun loadDetails(material: Material)
 
+    abstract fun materialsRequest()
+
     abstract fun materialDetailsObservable() : LiveData<List<KeyValue>>
 
     abstract fun materialsObservable() : LiveData<List<Material>>
@@ -37,7 +39,6 @@ class MaterialViewModelImpl(
     override fun loadDetails(material: Material) {
         viewModelScope.launch {
             try {
-
                 val details = materialsRepository.materialDetails(material).getOrThrow()
                 _details.postValue(details)
             } catch (e: Exception) {
@@ -46,7 +47,7 @@ class MaterialViewModelImpl(
         }
     }
 
-    private fun materialsRequest() {
+    override fun materialsRequest() {
         viewModelScope.launch {
             try {
                 val list = materialsRepository.materials().getOrThrow()
